@@ -3,20 +3,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-screen h-screen flex flex-col justify-center items-center gap-y-8">
+      <img src="assets/images/sesimi-logo.svg" alt="" />
+      <p className={`text-xl`}>Welcome to sesimi!</p>
     </div>
   );
 }
